@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Gerador de Assinaturas Data C</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" class="css">
+  </head>
+  <body>
+    <section id="header">
+        <img id="logo" src="logo_datac.png">
+        <h1>Gerador de Assinaturas</h1>
+    </section>
+    <section id="inputs">
+        <div id="inputGroup">
+
+            <input class="campo" placeholder="Nome" id="nome" type="text">
+            <input class="campo" placeholder="Sobrenome" id="sobrenome" type="text">
+            <input class="campo" placeholder="Cargo" id="cargo" type="text">
+
+
+            <input id="imagem" type="file" name="myImage" accept="image/x-png,image/gif,image/jpeg" />
+            <div id="uploader">Clique para inserir uma foto</div>
+
+            <div id="alerta" class="oculto">
+            <div>Atenção, o gerador pode não funcionar bem em telas com resolução menor que 1200px!</div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="outputs">
+        <div id="tela">
+            <img src="canvas.png" width="1100px" id="canvas">
+            <p id="nome-in">Nome</p>
+            <p id="sobre-in">Sobrenome</p>
+            <p id="cargo-in">Cargo</p>
+            <img id="image-in" src="">
+        </div>
+    </section>
+
+    <button id="btn">GERAR ASSINATURA</button>
+
+    
+    <script src="//dd7tel2830j4w.cloudfront.net/f1542689695230x960288118105381800/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

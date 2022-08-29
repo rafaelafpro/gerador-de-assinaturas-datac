@@ -1,0 +1,202 @@
+@import url("https://use.typekit.net/cij0jri.css");
+@import url("https://use.typekit.net/cij0jri.css");
+
+
+*{
+    font-family: "Muli", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+
+#header {
+    height: 70px;
+    background-color: #1F3058;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputGroup{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header h1{
+    line-height: 1em;
+    color: white;
+    margin-top: 4px;
+}
+
+
+
+#alerta{
+    width: 450px;
+    padding: 30px;
+    background-color: #f26565;
+    border-radius: 10px;
+    color: white;
+    font-family: "Muli";
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+}
+
+#alerta{
+    line-height: 1.3em;
+    transition: 800ms;
+    opacity: 0;
+}
+
+
+.campo{
+    margin-top: 20px;
+    height: 55px;
+    border: 10px !important;
+    font-family: "Muli";
+    font-size: 18px !important;
+    border-radius: 5px !important;
+    padding: 0px 20px;
+}
+
+.campo::placeholder{
+    color: #bfbfbf !important;
+}
+
+#etiqueta{
+    margin-top: 30px;
+    font-family: "Muli";
+    font-size: 18px !important;
+}
+
+#imagem{
+    margin-top: 30px;
+    font-family: "Muli";
+    font-size: 18px !important;
+    margin-left: 13px;
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+    opacity: 0;
+}
+
+#uploader{
+    width: 100%;
+    height: 80px;
+    color: #bfbfbf;
+    background-color: white;
+    text-align: center;
+    line-height: 80px;
+    outline: dashed;
+    outline-offset: -10px;
+    outline-width: 2px !important;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Muli";
+    margin-top: -80px;
+}
+
+#outputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tela{
+    width: 1100px;
+    
+    color: white;
+    position: relative;
+}
+
+#img{
+    width: 1100px;
+}
+
+#nome-in{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 30px;
+    width: 223px;
+    position: absolute;
+    left: 534px;
+    top: 90px;
+    z-index: 9;
+    text-align: end;
+    font-style: italic;
+}
+
+#sobre-in{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 23px;
+    width: 223px;
+    position: absolute;
+    left: 534px;
+    top: 127px;
+    z-index: 9;
+    text-align: end;
+}
+
+#cargo-in{
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 17px;
+    width: 404px;
+    position: absolute;
+    left: 348px;
+    top: 179px;
+    z-index: 9;
+    text-align: center;
+    color: #59C3E0;
+}
+
+#image-in{
+    max-width: 169px;
+    max-height: 169px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10000px;
+    position: absolute;
+    left: 786px;
+    top: 39px;
+    opacity: 0;
+}
+
+#btn{
+    background-color: #61CE70;
+    color: white;
+    font-weight: 600;
+    padding: 12px 22px;
+    border: 0;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#btn:hover{
+    background-color: #4bad58;
+}
