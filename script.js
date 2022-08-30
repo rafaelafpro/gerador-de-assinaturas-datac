@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     if (screen.width < 1100) {
-        var alerta = document.querySelector("#alerta div");
+        var alerta = document.querySelector("#alerta");
         alerta.innerText += ` Sua tela ${screen.width}px.`;
         alerta.style.opacity = 1;
     }
